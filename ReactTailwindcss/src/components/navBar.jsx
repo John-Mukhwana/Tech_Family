@@ -3,10 +3,10 @@
 function NavBar(){
 
     return(
-        <div className="mb-10 bg-gray-800 p-4">
-            <h1 className="text-white">
+        <div className="mb-10 bg-gray-800 p-4 ">
+            <p className="text-white text-[20px]">
                 NavBar
-            </h1>
+            </p>
 
         </div>
 
