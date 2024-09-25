@@ -38,8 +38,9 @@ export default function Form(){
     }
 
     return(
-        <>
+        <div className="flex flex-col bg-gray-500 w-80 h-40">
         <input
+           
            value={state.name}
            onChange={handleInputChange}
         />
@@ -48,7 +49,7 @@ export default function Form(){
         </button>
 
         <p>Hello,{state.name}.You are {state.age} Years Old</p>
-        </>
+        </div>
     )
     
 }
