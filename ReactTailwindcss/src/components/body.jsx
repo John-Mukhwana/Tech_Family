@@ -1,5 +1,6 @@
 
 import {useState} from 'react';
+import Form from './useReducer';
 
 function Body(){
     const[color , setColor] = useState("green");
@@ -15,8 +16,12 @@ function Body(){
                
             </button>
             <p className="text-lg">This is the body of the page.</p>
+
+
+            <Form/>
         </div>
     );
 }
+
 
 export default Body;
